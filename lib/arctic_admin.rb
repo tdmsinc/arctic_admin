@@ -1,5 +1,5 @@
 require "arctic_admin/version"
-require 'font-awesome-sass'
+require 'font_awesome5_rails'
 
 module ArcticAdmin
   module Rails
