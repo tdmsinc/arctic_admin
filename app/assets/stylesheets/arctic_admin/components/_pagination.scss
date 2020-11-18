@@ -1,6 +1,7 @@
 .pagination {
   font-size: 13px;
   margin-bottom: 10px;
+  float: right;
 
   .page {
     text-align: center;
@@ -22,4 +23,19 @@
     padding: .3rem .4rem;
     cursor: normal;
   }
+}
+
+.pagination_per_page {
+  float: right;
+  margin-left: 4px;  
+}
+
+.pagination_information {
+  float: right;
+  margin-bottom: 5px;
+  color: #b3bcc1;
+}
+
+.download_links {
+  float: left;
 }

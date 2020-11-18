@@ -1,5 +1,6 @@
 @mixin button() {
   border-radius: $border-radius;
+  text-decoration: none;
   display: inline-block;
   @include transition-button();
   cursor: pointer;
@@ -84,6 +85,7 @@
     float: left;
     padding: 6px 10px;
     border-right: 1px solid $color;
+    text-decoration: none;
     @include transition-button();
   }
 

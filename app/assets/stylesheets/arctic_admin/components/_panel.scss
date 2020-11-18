@@ -1,0 +1,15 @@
+.panel {
+  background-color: #fff;
+  @include box-shadow(0 0 4px 0 rgba(0,0,0,.04));
+  padding: 15px 10px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: $lg-width) {
+    padding: 20px;
+    border-radius: $border-radius;
+  }
+
+  h3 {
+    margin: 0 0 10px 0;
+  }
+}

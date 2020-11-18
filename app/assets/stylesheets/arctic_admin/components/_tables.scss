@@ -23,6 +23,7 @@ thead th {
     width: 100%;
     display: inline-block;
     padding: 4px 20px 4px 4px;
+    text-decoration: none;
 
     @media screen and (min-width: $md-width) {
       padding: 8px 20px 8px 8px;

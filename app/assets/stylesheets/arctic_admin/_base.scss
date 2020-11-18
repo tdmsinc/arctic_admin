@@ -19,6 +19,7 @@ body {
   font-family: $font-family-body;
   background-color: $body-background;
   color: $text-color;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,5 +28,5 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: $primary-color;
-  text-decoration: none;
+  text-decoration: underline;
 }

@@ -39,6 +39,7 @@
       display: inline-block;
       color: $text-color;
       padding: 0 20px;
+      text-decoration: none;
 
       &:hover {
         background-color: $sidebar-item-hover-background;

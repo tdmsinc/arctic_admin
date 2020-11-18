@@ -27,6 +27,7 @@ body.index {
     }
 
     .dropdown_menu_button{
+      float: left;
       @include secondary-dropdown($primary-color);
     }
 
@@ -76,13 +77,13 @@ body.index {
   }
 
   .table_actions {
-    margin-bottom: -4px;
+    // margin-bottom: -4px;
 
     .member_link {
-      @include primary-button($primary-color, white);
-      padding: 4px 8px;
+      // @include primary-button($primary-color, white);
+      // padding: 4px 8px;
       margin-right: 4px;
-      margin-bottom: 4px;
+      // margin-bottom: 4px;
     }
   }
 
@@ -121,5 +122,9 @@ body.index {
       font-size: 20px;
       padding: 15px 10px;
     }
+  }
+
+  .indexes {
+    float: right;
   }
 }

@@ -42,3 +42,10 @@
     border-radius: $border-radius;
   }
 }
+
+.show #main_content {
+  background-color: inherit;
+  @include box-shadow(none);
+  padding: 0;
+  border-radius: 0;
+}

@@ -5,7 +5,8 @@
   letter-spacing: 0.15em;
   padding: 3px 5px 2px 5px;
   font-size: 0.8em;
-  border-radius: $border-radius;
+  //border-radius: $border-radius;
+  line-height: 2em;
 
   &.ok, &.published, &.complete, &.completed, &.green, &.yes {
     background-color: $status-tag-background-valid-color;

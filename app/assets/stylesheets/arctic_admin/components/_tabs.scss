@@ -1,5 +1,11 @@
 .tabs.ui-tabs {
   border: 1px solid $border-color;
+  background-color: #fff;
+  @include box-shadow(0 0 4px 0 rgba(0,0,0,.04));
+
+  @media screen and (min-width: $lg-width) {
+    border-radius: $border-radius;
+  }
 
   .nav {
     border-bottom: 1px solid $border-color;
@@ -13,6 +19,7 @@
         color: $text-color;
         display: inline-block;
         padding: 15px 25px;
+        text-decoration: none;
         @include outline();
         @include transition-button();
       }
@@ -28,6 +35,19 @@
   }
 
   .tab-content {
-    padding: 10px 20px;
+    padding: 20px;
+
+    .panel {
+      background-color: inherit;
+      @include box-shadow(none);
+      padding: 0;
+      margin-bottom: 0;
+    
+      @media screen and (min-width: $lg-width) {
+        padding: 0;
+        border-radius: 0;
+      }
+    }
+    
   }
 }
